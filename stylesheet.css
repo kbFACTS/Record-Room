@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("recordroom.png");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: cover; */
+}
+
+.fill {
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+	height: 40px;
+	width: 110px;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+.container {
+	background-color: none;
+	border-radius: 50%;
+	position: absolute;
+	height: 40px;
+	width: 110px;
+	top: 1000px;
+	left: 1100px;
+}
+.fill2 {
+	border-radius: 50%;
+	position: relative;
+	height: 30px;
+	width: 110px;
+	cursor: pointer;
+}
+.fill3 {
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+	height: 30px;
+	width: 110px;
+	cursor: pointer;
+
+}
+.hold {
+  border: solid 3px gold;
+}
+.empty {
+  /* display: inline-block; */
+  height: 30px;
+  width: 110px;
+  margin: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 705px;
+  left: 1295px;
+}
+
+#empty1 {
+    /* opacity: 0; */
+}
+#empty2 {
+  	background: black;
+}
+
+.hovered {
+  background-color: gold;
+}
+
+.invisible {
+	display: none;
+}
+
+.pg {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  height: 100px;
+  width: 550px;
+  top: 400px;
+  left: 770px;
+}
